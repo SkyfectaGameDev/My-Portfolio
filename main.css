@@ -9,8 +9,8 @@
     border: 0px;
     box-shadow: inset 0 0 0 3000px white;
     box-shadow: outset 0 0 0 3000px white;
-    margin-left: 60px;
-    margin-right: 60px;
+    margin-left: 2%;
+    margin-right: 2%;
     
 }
 
@@ -19,7 +19,7 @@ h1 {
     color: white;
     font-size: auto;
     font-family: "Lemon/Milk", sans-serif;
-    padding: 30px 0;
+    padding: 30px;
     border: 3px solid black;
     text-align: center;
     background-clip: content-box; /* <---- */
@@ -38,12 +38,11 @@ h1 {
     font-family: Arial;
     padding: 10px;
     border: 3px solid black;
-
 }
 
 .lists {
     text-align: left;
-    padding-left: 30px;
+    padding-left: 2%;
 }
 
 .link-box{
@@ -63,8 +62,6 @@ h1 {
     justify-content: center;
     flex-wrap: wrap;
     row-gap: 10px;
-    margin-left: 50px;
-    margin-right: 50px;
 }
 
 .media-format {
@@ -96,6 +93,6 @@ iframe {
     font-family: Arial;
     padding: 10px;
     border: 3px solid black;
-    margin-left: 150px;
-    margin-right: 150px;
+    margin-left: 10%;
+    margin-right: 10%;
 }
