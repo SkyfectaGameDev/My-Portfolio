@@ -1,4 +1,6 @@
 body {
+    margin-left: 4%;
+    margin-right: 4%;
     font-family: 'Comfortaa';
     color: #272727;
 }
@@ -8,19 +10,20 @@ body {
     justify-content: space-between;
     height: 100px;
     padding-top: 20px;
+    padding-left: 7%;
+    padding-right: 7%;
 }
 
 #profile {
     display: flex;
     align-items: center;
-    padding-left: 40px;
     padding-top: 20px;
-    justify-content: flex-start;
-    width: auto;
+    width: 400px
+
 }
 
 #avatar {
-    height: 100%;
+    height: 120%;
     border-radius: 50%;
     border: 5px solid white;
     filter: drop-shadow(0px 0px 8px #969696);
@@ -29,11 +32,10 @@ body {
 #nameplate {
     display: flex;
     justify-content: flex-start;
-    align-items: center;
     flex-direction: column;
     font-family: "Lemon/Milk", sans-serif;
-    padding-left: 40px;
-    height: 120px;
+    height: 115px;
+    width: 300px;
 }
 
 #name {
@@ -47,7 +49,6 @@ body {
     font-family: "Lemon/Milk", sans-serif;
     font-size: 150%;
     column-gap: 40px;
-    padding: 40px;
 }
 
 a {
@@ -73,16 +74,24 @@ h2 {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 75%;
-    padding: 20px;
-    filter: drop-shadow(0px 0px 8px #969696)
+    width: 85%;
+    border: 10px solid white;
+    filter: drop-shadow(0px 0px 8px #969696);
+}
+
+#link-image {
+    padding: 10px;
+}
+
+#link-image:hover {
+    opacity: 80%;
 }
 
 p {
     font-size: 24px;
     color: #272727;
-    padding-left: 40px;
-    padding-right: 40px;
+    padding-left: 7%;
+    padding-right: 7%;
     text-align: justify;
 }
 
@@ -92,6 +101,3 @@ p {
     padding-bottom: 20px;
 }
 
-#link-image:hover {
-    opacity: 80%;
-}
