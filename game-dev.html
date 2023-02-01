@@ -3,7 +3,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <link rel="stylesheet" type="text/css" href="main.css">
+    <link rel="stylesheet" type="text/css" href="new.css">
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=0.1">
@@ -15,60 +15,46 @@
 </style>
 
 <!-- Text, Images & Links -->
-<body class="mainBody">
-    <br>
-    <body class="navitem">
-        <h1>Games Development</h1>
-            <div class="flex-container">
-                <a class="link-box" href="index.html"> About Me </a> 
-                <a class="link-box" href="game-dev.html"> Games Development </a>
-                <a class="link-box" href="graphics.html"> Graphic Art </a>
-                <a class="link-box" href="vid-prod.html"> Video Editing & Production </a>
-                <a class="link-box" href="contact.html"> Contact </a>
+<body>
+    <div id="topbar">
+        <div id="profile">
+            <img id="avatar" src="Images\Icons\PFP.png" alt="Alisha's Avatar">
+            <div id="nameplate">
+                <p id="name">Alisha Skye</p>
             </div>
-    </body>
-    <br>
-    
-    <body class="contentAlign">
-        <img src="Images\emberseed.png" alt="Project Emberseed Title" width="1420">
-        <br>
-        <p class="contentAlign"> Project Emberseed is a 2D platformer that focuses on using the environment to your ability, rather than having innate abilities that the character has by default. Essentially, the environment you find yourself in is what determines what mechanics you can use, what routes to take, and how to progress through the game.</p>
-        <video src="Videos/es-early.mp4" controls width = 700 type="video/mp4" alt="Early development of Project Emberseed."> </video>
-        <video src="Videos/es-late.mp4" controls width = 700 type="video/mp4" alt="Current state of Project Emberseed."> </video>
-        <br>
-        <br>
-        <br>
-        <br>
-        <img src="Images\nebula.png" alt="Project Nebula Title" width="1420">
-        <br>
-        <p class="contentAlign"> Project Nebula is a shoot 'em up game inspired by the likes of Thunder Force, Darius Gaiden, Radiant Silvergun, and the whole 90's era for the genre. It uses a 3D, low-poly style. I would usually use pixel art, however the 3D engine allows me to achieve the game's main goal - sifting perspectives. My game is attempting something that has never really been seen before - and that is switching between top-down and sidescrolling perspectives!</p>
-        <video src="Videos/nb-early.mp4" controls width = 700 type="video/mp4" alt="Early development of Project Nebula."> </video>
-        <video src="Videos/nb-late.mp4" controls width = 700 type="video/mp4" alt="Current state of Project Nebula."> </video>
-        <br>
-        <br>
-        <br>
-        <br>
-        <img src="Images\other.png" alt="Project Nebula Title" width="1420">
-        <br>
-        <p class="contentAlign"> Currently, I am working on two projects completely solo. I have also done lots of little prototypes in the past, so take a look at my reel! A few of these ideas have been in the making for a couple of years as far as planning goes, but development is currently inconsistent thanks to life being extremely busy in general.</p>
-        <video src="Videos/Game Reel.mp4" controls width = 1420 type="video/mp4" alt="A video showcasing my game projects up until the start of 2022."> </video>
+            
+        </div>
+        <div id="navbar">
+            <a class="link-box" href="index.html"> About Me </a> 
+            <a class="link-box" href="game-dev.html"> Game Dev </a>
+            <a class="link-box" href="graphics.html"> Graphic Art </a>
+            <a class="link-box" href="vid-prod.html"> Video Editing </a>
+            <a class="link-box" href="contact.html"> Contact </a>
+        </div>
+    </div>
+    <h2>Games Development</h2>
+    <p>Since 2017, I have been dedicated towards going down the career path of a games programmer. Over that time, I have learned different software, different languages and most importantly - how to write code for different types of games, such as 2D platformers and 3D shmups. Most of my work so far has been 2D, but recently I have taught myself how to do low-poly 3D modelling in Blender, which has opened the door to begin working on 3D projects.</p>
+    <p>
+        Below are two of my current main projects, and a showcase of all the little games I have worked on leading up to them. I have utilised multiple engines and languages - such as Unity/C#, Godot/GDScript, Game Maker Studio 2/GML, and recently I have began working with UE5/C++/Blueprints. 
+    </p>
+
+    <a id="link-image" href="dev-emberseed.html" class="media-format">
+        <img id="game-image" src="Images\Games\emberseed.png" alt="Project Emberseed screenshot">
+    </a>
+    <a id="link-image" href="dev-nebula.html" class="media-format">
+        <img id="game-image" src="Images\Games\nebula.png" alt="Project Emberseed screenshot">
+    </a>
+        <img id="game-image" src="Images\Games\other.png" alt="Project Emberseed screenshot">
+
+    <div id="social-tray">
+        <a id="link-image" href="https://www.youtube.com/@Skyfecta" class="media-format">
+            <img src="Images\Icons\YT.png" alt="YouTube Icon" height="50">
+        </a>
+        <a id="link-image" href="https://twitter.com/SkyfectaGameDev" class="media-format">
+            <img src="Images\Icons\TWT.png" alt="Twitter Icon" height="50">
+        </a>
+        <a id="link-image" href="https://github.com/SkyfectaGameDev" class="media-format">
+            <img src="Images\Icons\GH.png" alt="GitHub Logo" height="50">
+        </a>
+    </div>
 </body>
-
-<body id="icon-tray">
-    <br>
-    <br>
-    <a href="https://www.youtube.com/@Skyfecta" class="media-format">
-        <img src="Images\YT.png" alt="YouTube Icon" height="50">
-    </a>
-
-    <a href="https://twitter.com/SkyfectaGameDev" class="media-format">
-        <img src="Images\TWT.png" alt="Twitter Icon" height="50">
-    </a>
-
-    <a href="https://github.com/SkyfectaGameDev" class="media-format">
-        <img src="Images\GH.png" alt="GitHub Logo" height="50">
-    </a>
-    <br>
-
-</body>
-<br>
