@@ -87,6 +87,36 @@ h2 {
     opacity: 80%;
 }
 
+#about-img {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-left: 7%;
+    padding-right: 7%;
+    column-gap: 20px;
+}
+
+#about-images {
+    width: 20%;
+    border: 10px solid white;
+    filter: drop-shadow(0px 0px 8px #969696);
+}
+
+#about-vids {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-left: 7%;
+    padding-right: 7%;
+    column-gap: 20px;
+}
+
+video {
+    width: 500px;
+    border: 10px solid white;
+    filter: drop-shadow(0px 0px 8px #969696);
+}
+
 p {
     font-size: 24px;
     color: #272727;
@@ -98,6 +128,6 @@ p {
 #social-tray {
     display: flex;
     justify-content: center;
-    padding-bottom: 20px;
+    padding-block: 20px;
 }
 
