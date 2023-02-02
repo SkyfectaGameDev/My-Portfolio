@@ -161,7 +161,6 @@ video {
 }
 
 iframe {
-    width: auto;
     border: 10px solid white;
     aspect-ratio: 16/9;
     filter: drop-shadow(0px 0px 8px #969696);
