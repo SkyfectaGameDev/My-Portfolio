@@ -25,7 +25,7 @@ body {
 #avatar {
     height: 120%;
     border-radius: 50%;
-    border: 5px solid white;
+    border: 6px solid white;
     filter: drop-shadow(0px 0px 8px #969696);
 }
 
@@ -70,13 +70,10 @@ h2 {
     text-align: center;
 }
 
-#game-image {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 85%;
-    border: 10px solid white;
-    filter: drop-shadow(0px 0px 8px #969696);
+h3 {
+    font-family: "Lemon/Milk", sans-serif;
+    font-size: 30px;
+    text-align: center;
 }
 
 #link-image {
@@ -87,7 +84,7 @@ h2 {
     opacity: 80%;
 }
 
-#about-img {
+#about-container {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -96,7 +93,7 @@ h2 {
     column-gap: 20px;
 }
 
-#about-images {
+#about-image {
     width: 20%;
     border: 10px solid white;
     filter: drop-shadow(0px 0px 8px #969696);
@@ -109,10 +106,42 @@ h2 {
     padding-left: 7%;
     padding-right: 7%;
     column-gap: 20px;
+    row-gap: 20px;
+}
+
+#game-image {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 85%;
+    border: 10px solid white;
+    filter: drop-shadow(0px 0px 8px #969696);
+}
+
+#art-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-left: 7%;
+    padding-right: 7%;
+    column-gap: 20px;
+    row-gap: 20px;
+}
+
+#art-image-std {
+    width: 29%;
+    border: 10px solid white;
+    filter: drop-shadow(0px 0px 8px #969696);
+}
+
+#art-image-banner {
+    width: 45%;
+    border: 10px solid white;
+    filter: drop-shadow(0px 0px 8px #969696);
 }
 
 video {
-    width: 500px;
+    width: 450px;
     border: 10px solid white;
     filter: drop-shadow(0px 0px 8px #969696);
 }
