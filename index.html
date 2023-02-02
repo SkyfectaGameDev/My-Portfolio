@@ -1,5 +1,4 @@
-
-<!-- Website Setup -->
+<!----- Website Setup ----->
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -16,7 +15,7 @@
     
 </style>
 
-<!-- Text, Images & Links -->
+<!----- Avatar, Name, Navigation Bar & Title ----->
 <body>
     <div id="topbar">
         <div id="profile">
@@ -27,38 +26,39 @@
             
         </div>
         <div id="navbar">
-            <a class="link-box" href="index.html"> About Me </a> 
-            <a class="link-box" href="game-dev.html"> Game Dev </a>
-            <a class="link-box" href="graphic-art.html"> Graphic Art </a>
-            <a class="link-box" href=""> Video Editing </a>
-            <a class="link-box" href=""> Contact </a>
+            <a id="current-page" href="index.html"> About Me </a> 
+            <a href="game-dev.html"> Game Dev </a>
+            <a href="graphic-art.html"> Graphic Art </a>
+            <a href="video-editing.html"> Video Editing </a>
+            <a href="contact.html"> Contact </a>
         </div>
     </div>
-    
     <h2>About Me</h2>
     <p>Hey! My name is Alisha, and I'm a programmer. Ever since I was a kid and got my hands on a computer, I had always had a thirst for knowledge and to learn how to understand them both inside and out. Because of this, throughout my history of education, I have always gravitated towards the more technical subjects - such as Computer Science, ICT, Programming, etc. I even do a bit of video editing and graphic design as a hobby! Recently, I've been learning more about Web Development (you're reading this from a website I made, after all!) and more standard programming languages - such as Python, JavaScript and C. However, where my interests are sparked the most is in Games Programming. So far, I have worked with Unity, Godot, UE4/5, GameMaker Studio 2, Construct 2/3, and I've even done some light research into lesser-known engines such as the Delver Engine and PICO-8. One of my favourite small projects recently was learning how to use C to write and compile a ROM that displays parallax backgrounds, sprites and animations on the Sega Mega Drive / Genesis, as well as creating and storing palettes for said graphics.
     </p>
     
+    <!----- Initial Game Dev Clips ----->
+    <h3>Game Development Examples</h3>
     <div id="about-vids">
         <video src="Videos\es-late.mov" controls></video>
         <video src="Videos\nb-late.mp4" controls></video>
         <video src="Videos\Game Reel.mp4" controls></video>
     </div>
-    
     <p>
         The catalyst for all of this was definitely finding out how to mod games, starting with simple texture swaps in games like Minecraft. Nowadays, I've made some more heavy mods on some of the 2D Sonic games. Regardless, if you want to hear more about these things, you can head over to their respective pages to view the portfolios I have built up! 
     </p>
+
+    <!----- Other Hobbies ----->
+    <h3>Other Hobbies</h3>
     <p>
         When I'm not programming, I can normally be expected to be spending my time playing games, looking after my pet spider, hanging out with friends or focusing on my other hobbies. One of said hobbies has only been a recent endeavour - having only picked it up for the past two years, I have found myself learning more and more about the hardware of devices - paticularly older ones. I have a workstation in my room that allows me to carry out repairs and refurbishments of cassette tape players, handheld game consoles, controllers, and much more!
     </p>
-
     <div id="about-container">
         <img id="about-image" src="Images\Misc\Panasonic 1.jpg" alt="">
         <img id="about-image" src="Images\Misc\Panasonic 2.jpg" alt="">
     </div>
 
-    
-
+    <!----- Social Media Icon Tray ----->
     <div id="social-tray">
         <a id="link-image" href="https://www.youtube.com/@Skyfecta" class="media-format">
             <img src="Images\Icons\YT.png" alt="YouTube Icon" height="50">
@@ -68,6 +68,9 @@
         </a>
         <a id="link-image" href="https://github.com/SkyfectaGameDev" class="media-format">
             <img src="Images\Icons\GH.png" alt="GitHub Icon" height="50">
+        </a>
+        <a id="link-image" href="https://www.linkedin.com/in/alisha-clements-11b679232/" class="media-format">
+            <img src="Images\Icons\LI.png" alt="GitHub Logo" height="50">
         </a>
     </div>
 </body>
