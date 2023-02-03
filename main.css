@@ -16,7 +16,6 @@ body {
     padding-bottom: 50px;
     background-color: white;
     border-bottom: 8px solid #272727;
-    position: -webkit-sticky; /* Safari */
     position: sticky;
     top: 0;
     z-index: 1;
@@ -74,13 +73,32 @@ a {
     color: #272727;
     text-decoration: none;
     font-weight: bold;
+    transition: color 0.2s;
+    transition: font-size 0.2s;
 }
+
+
 
 a:hover {
     color:#9b0a42;
     font-weight: bold;
     font-size: 105%;
     filter: drop-shadow(3px 3px 2px #c7c7c7);
+    transition: color 0.2s;
+    transition: font-size 0.2s;
+}
+
+@keyframes link-hover {
+    from 
+    {
+        color: #272727;
+        font-size: 100%;
+    }
+    to
+    {
+        color: #9b0a42;
+        font-size: 105%;
+    }
 }
 
 #current-page {
@@ -102,10 +120,12 @@ h3 {
 
 #link-image {
     padding: 10px;
+    transition: opacity 0.1s;
 }
 
 #link-image:hover {
     opacity: 80%;
+    transition: opacity 0.2s;
 }
 
 #about-container {
@@ -260,4 +280,3 @@ p {
     justify-content: center;
     padding-block: 20px;
 }
-
