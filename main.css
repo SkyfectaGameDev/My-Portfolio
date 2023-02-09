@@ -73,8 +73,7 @@ a {
     color: #272727;
     text-decoration: none;
     font-weight: bold;
-    transition: color 0.2s;
-    transition: font-size 0.2s;
+    transition: color 0.2s, font-size 0.2s;
 }
 
 
@@ -84,8 +83,7 @@ a:hover {
     font-weight: bold;
     font-size: 105%;
     filter: drop-shadow(3px 3px 2px #c7c7c7);
-    transition: color 0.2s;
-    transition: font-size 0.2s;
+    transition: color 0.2s, font-size 0.2s;
 }
 
 @keyframes link-hover {
